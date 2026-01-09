@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Ostroheader from "./components/ostroheader"
 import Link from "next/link";
+import TextRing from "./components/textring";
 
 export default function Home() {
   return (
@@ -11,7 +12,17 @@ export default function Home() {
           <div className="title uppercase text-void font-extrabold text-6xl">hello, we are <span className="text-shadow-ostroborea text-lion">ostroborea</span></div>  
           <p className="text-2xl text-frenchgray max-w-1/2 text-center">a game development studio focused on fantasy, creativity and imagination</p>
         </div>
-        <Link className="button w-42 h-42 rounded-full border-lion border-8 cursor-pointer" href="./projects/"></Link>
+        <Link
+          href="./projects/"
+          className="gold-ring-button">
+          <span className="absolute inset-0 flex items-center justify-center"
+        >
+            <TextRing
+              text="learn more? learn more? learn more? "
+              textRadius={250}
+              />
+          </span>
+        </Link>
       </main>
     </div>
   );

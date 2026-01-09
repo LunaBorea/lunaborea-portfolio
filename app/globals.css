@@ -16,6 +16,21 @@
   --text-shadow-ostroborea: 0px 0px 7.7px var(--color-africanviolet);
 }
 
+@layer components {
+  .disable-blur{
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges
+  }
+  .center-line{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0) calc(50% - 2px), var(--color-lion) 50%, rgba(0,0,0,0) calc(50% + 2px))
+  }
+}
+
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}
+
+
 body {
   background: var(--color-void);
   font-family: var(--font-robotomono);
@@ -27,4 +42,120 @@ body {
 
 span {
   -webkit-text-stroke: 0;
+}
+
+/* Project card hover effect */
+.project-card {
+  position: relative;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.project-card::before,
+.project-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 500ms;
+  pointer-events: none;
+}
+
+.project-card::before {
+  background: radial-gradient(
+    600px circle at var(--mouse-x) var(--mouse-y),
+    rgba(255, 255, 255, 0.15),
+    transparent 30%
+  );
+  z-index: 2;
+}
+
+.project-card::after {
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y),
+    rgba(255, 255, 255, 0.4),
+    transparent 30%
+  );
+  z-index: 1;
+}
+
+.project-card:hover::before,
+.project-card:hover::after {
+  opacity: 1;
+}
+
+
+/* Text ring */
+
+.text-ring {
+  position: relative;
+  display: grid;
+  place-items: center;
+
+  width: calc(var(--radius) * 2);
+  height: calc(var(--radius) * 2);
+
+  transform-origin: center;
+}
+
+.text-ring > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform:
+    translate(-50%, -50%)
+    rotate(calc(360deg / var(--total) * var(--index)))
+    translateY(calc(var(--radius) * -1));
+
+  transform-origin: center;
+}
+
+.gold-ring-button:hover .text-ring {
+  animation: spin 10s linear infinite;
+}
+
+.text-ring {
+  pointer-events: none;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Golden ring */
+
+.gold-ring-button {
+  position: relative;
+  width: 10.5rem; /* matches w-42 */
+  height: 10.5rem;
+  border-radius: 50%;
+}
+
+.gold-ring-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+
+  background: conic-gradient(
+    from 0deg,
+    #f5d27a,
+    #d4a84f 15%,
+    #fff1b8 25%,
+    #b8892f 40%,
+    #f5d27a 55%,
+    #fff1b8 70%,
+    #d4a84f 85%,
+    #f5d27a
+  );
+
+  mask: radial-gradient(circle, transparent 65%, black 66%);
+  -webkit-mask: radial-gradient(circle, transparent 65%, black 66%);
+
+  transform: translateZ(0);
 }
