@@ -1,29 +1,47 @@
-import Image from "next/image";
+import Noise from "./components/noise";
 import Ostroheader from "./components/ostroheader"
 import Link from "next/link";
-import TextRing from "./components/textring";
 
 export default function Home() {
   return (
-    <div className="h-screen flex flex-col items-center">
-      <Ostroheader></Ostroheader>
-      <main className="flex justify-center items-center flex-col w-screen h-9/10 gap-16">
-        <div className="text flex flex-col items-center">
-          <div className="title uppercase text-void font-extrabold text-6xl">hello, we are <span className="text-shadow-ostroborea text-lion">ostroborea</span></div>  
-          <p className="text-2xl text-frenchgray max-w-1/2 text-center">a game development studio focused on fantasy, creativity and imagination</p>
+    <div className="h-screen flex flex-col items-center overflow-hidden">
+
+      <Noise />
+
+      <Ostroheader />
+
+      <main className="flex items-center flex-col w-screen h-9/10 gap-16 pt-[26vh]">
+
+        <div className="text flex flex-col">
+          <div className="flex flex-row w-full">
+            <div className="uppercase text-lion text-5xl tracking-widest mr-5">My name is</div>  
+            <div className="center-line-h grow"></div>
+          </div>
+
+          <div className="title uppercase text-void font-extrabold text-9xl text-shadow-ostroborea transition-transform hover:scale-x-110 cursor-default">Nathanael Lampa</div>  
+
+          <div className="flex flex-row w-full">
+            <div className="center-line-h grow"></div>
+            <div className="uppercase text-lion text-3xl tracking-widest ml-5 -mt-2">aka lunaborea</div>  
+          </div>
+
+          <p className="text-2xl text-frenchgray w-full font-sans tracking-tight text-center mt-5">aspiring game developer · full stack background · artist</p>
         </div>
-        <Link
-          href="./projects/"
-          className="gold-ring-button">
-          <span className="absolute inset-0 flex items-center justify-center"
-        >
-            <TextRing
-              text="learn more? learn more? learn more? "
-              textRadius={250}
-              />
-          </span>
-        </Link>
+
+        <div className="flex flex-row gap-20">
+          <div className="flex flex-col group">
+            <Link href="/projects" className="title uppercase text-5xl text-void font-extrabold text-center">projects</Link>
+            <div className="w-full h-0.5 origin-left scale-x-0 bg-lion group-hover:scale-x-100 transition-transform duration-300"></div>
+          </div>
+
+          <div className="flex flex-col group">
+            <Link href="/contact" className="title uppercase text-5xl text-void font-extrabold text-center">contact</Link>
+            <div className="w-full h-0.5 origin-left scale-x-0 bg-lion group-hover:scale-x-100 transition-transform duration-300"></div>
+          </div>
+        </div>
+
       </main>
+
     </div>
   );
 }
