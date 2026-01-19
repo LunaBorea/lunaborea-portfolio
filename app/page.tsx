@@ -10,7 +10,7 @@ export default function Home() {
 
       <Ostroheader />
 
-      <main className="flex items-center flex-col w-screen h-9/10 gap-16 pt-[26vh]">
+      <main className="flex items-center flex-col w-screen h-9/10 gap-16 pt-[25vh]">
 
         <div className="text flex flex-col">
           <div className="flex flex-row w-full">

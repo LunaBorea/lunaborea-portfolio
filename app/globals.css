@@ -22,17 +22,17 @@
     image-rendering: -webkit-optimize-contrast;
     image-rendering: -moz-crisp-edges
   }
-  .center-line-v{
+  /* .center-line-v{
     background-image: linear-gradient(90deg, rgba(0,0,0,0) calc(50% - 2px), var(--color-lion) 50%, rgba(0,0,0,0) calc(50% + 2px))
-  }
+  } */
   .center-line-h{
     background-image: linear-gradient(180deg, rgba(0,0,0,0) calc(50% - 2px), var(--color-lion) 50%, rgba(0,0,0,0) calc(50% + 2px))
   }
 }
 
-@utility no-scrollbar {
+/* @utility no-scrollbar {
   @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
-}
+} */
 
 html {
   background: var(--color-void);
@@ -47,55 +47,13 @@ html {
   -webkit-text-stroke: 2px var(--color-lion); 
 }
 
-/* Project card hover effect */
-
-.project-card {
-  position: relative;
-  border-radius: 1.5rem;
-  overflow: hidden;
-}
-
-.project-card::before,
-.project-card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  opacity: 0;
-  transition: opacity 500ms;
-  pointer-events: none;
-}
-
-.project-card::before {
-  background: radial-gradient(
-    600px circle at var(--mouse-x) var(--mouse-y),
-    rgba(255, 255, 255, 0.15),
-    transparent 30%
-  );
-  z-index: 2;
-}
-
-.project-card::after {
-  background: radial-gradient(
-    800px circle at var(--mouse-x) var(--mouse-y),
-    rgba(255, 255, 255, 0.4),
-    transparent 30%
-  );
-  z-index: 1;
-}
-
-.project-card:hover::before,
-.project-card:hover::after {
-  opacity: 1;
-}
-
 /* noise */
 
 .noise {
   background-image: url("/img/noise.png");
   background-repeat: repeat;
   background-size: 256px 256px;
-  opacity: 0.04;
+  opacity: 0.05;
   animation: noiseMove 0.8s steps(1) infinite;
 }
 
