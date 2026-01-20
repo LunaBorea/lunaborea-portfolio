@@ -30,13 +30,13 @@
   }
 }
 
-/* @utility no-scrollbar {
-  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
-} */
-
 html {
   background: var(--color-void);
   font-family: var(--font-robotomono);
+}
+
+* {
+  scrollbar-gutter: stable;
 }
 
 *::selection {
