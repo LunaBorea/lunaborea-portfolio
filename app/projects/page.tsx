@@ -178,7 +178,7 @@ export default function page() {
 
               <div className='w-full max-h-[40vh] bg-void border-4 border-lion p-4 overflow-y-scroll'>
                 <h1 className='text-3xl text-africanviolet '>The Origin of the Null Guard</h1>
-                <p className='text-xl text-frenchgray mb-4'>The Shepherd took the responsibility upon himself, of keeping the worst of the Wreath at bay by receiving the mark of sacrifice. In exchange to forfeit his life upon completion of his task, he was granted boundless strength and endurance by the powers that be.</p>
+                <p className='text-xl text-africanviolet mb-4'>The Shepherd took the responsibility upon himself, of keeping the worst of the Wreath at bay by receiving the mark of sacrifice. In exchange to forfeit his life upon completion of his task, he was granted boundless strength and endurance by the powers that be.</p>
                 <p className='text-xl text-frenchgray mb-4'>Excerpt from the Null Testament of the Grand Codex:</p>
                 <p className='text-xl text-frenchgray mb-4'>1 In the blasted, wretched depths of the Wreath, he remains.</p>
                 <p className='text-xl text-frenchgray mb-4'>2 His sword, awash with the rancid viscera and blood of our enemy.</p>
