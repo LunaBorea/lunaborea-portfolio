@@ -35,7 +35,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col group">
-            <Link href="/contact" className="title uppercase text-5xl text-void font-extrabold text-center group-hover:text-shadow-ostroborea transition-all duration-300">contact</Link>
+            <Link href="/about" className="title uppercase text-5xl text-void font-extrabold text-center group-hover:text-shadow-ostroborea transition-all duration-300">about me</Link>
             <div className="w-full h-0.5 origin-left scale-x-0 bg-lion group-hover:scale-x-100 transition-transform duration-300"></div>
           </div>
         </div>
