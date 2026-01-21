@@ -167,7 +167,7 @@ export default function page() {
           {openSections.writing && (
             <div className="mb-4 mt-8 w-full text-frenchgray flex flex-col gap-8">
 
-              <div className='w-full max-h-[40vh] bg-void border-4 border-lion p-4 overflow-y-scroll'>
+              <div className='w-full bg-void border-4 border-lion p-4'>
                 <h1 className='text-3xl text-africanviolet'>The Star Smith</h1>
                 <p className='text-xl text-frenchgray mb-4'>Among the countless Gods that were at the beginning of time, one stood out, being known above all else as a destroyer. She was called Star. Wherever she went, wielding her mighty hammer, cracks, fissures and rifts would follow. She was mocked by the other Gods for her clumsiness and they dismissed her as a nuisance.</p>
                 <p className='text-xl text-frenchgray mb-4'>When the world was formed, Star was captivated by its beauty, but she was commanded to never approach it, lest her touch shatter it too. So she lingered in the heavens, watching from afar. For every new wonder she came to love, a flowing river, a mighty mountain, a blooming field, she etched a mark into the sky. Over time, these etchings became a vast tapestry, reflecting the world's splendor back unto itself.</p>
@@ -176,7 +176,7 @@ export default function page() {
                 <p className='text-xl text-frenchgray'>For her defiance, Star was executed by the other Gods. Yet when the first night thereafter came, they looked to the sky and were awestruck. Star's markings now shone as countless lights, illuminating the heavens. Below, the fires she had kindled in mortal hearts burned brightly, as though the world itself blazed in her memory. It was then understood the truth of Star's nature, not a destroyer, but a maker who had shaped beauty from imperfection.</p>
               </div>
 
-              <div className='w-full max-h-[40vh] bg-void border-4 border-lion p-4 overflow-y-scroll'>
+              <div className='w-full bg-void border-4 border-lion p-4'>
                 <h1 className='text-3xl text-africanviolet'>The Origin of the Null Guard</h1>
                 <p className='text-xl text-frenchgray mb-4'>The Shepherd took the responsibility upon himself, of keeping the worst of the Wreath at bay by receiving the mark of sacrifice. In exchange to forfeit his life upon completion of his task, he was granted boundless strength and endurance by the powers that be.</p>
                 <p className='text-xl text-africanviolet mb-4'>Excerpt from the Null Testament of the Grand Codex:</p>
