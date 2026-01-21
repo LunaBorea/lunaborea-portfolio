@@ -37,10 +37,6 @@ html {
   font-family: var(--font-robotomono);
 }
 
-* {
-  scrollbar-gutter: stable;
-}
-
 *::selection {
   color: var(--color-africanviolet);
 }
