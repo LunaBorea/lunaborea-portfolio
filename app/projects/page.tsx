@@ -80,18 +80,69 @@ export default function page() {
           </div>
 
           {openSections.art && (
-            <div className="mb-4 mt-8 w-full text-frenchgray flex flex-row gap-8">
+            <div className="mb-4 mt-8 w-full text-frenchgray flex flex-col gap-8">
 
-              <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                <img src="/img/pyreboundgameplay.gif" alt="Gameplay of my project, pyrebound" className='w-full h-full object-contain bg-black'/>
+              <div className='flex flex-row gap-8'>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <img src="/img/art/0.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                </div>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <img src="/img/art/1.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                </div>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <video autoPlay playsInline loop className='w-full h-full object-contain bg-black'>
+                    <source src="/img/art/2.webm" type="video/webm"/>
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
               </div>
 
-              <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                <img src="/img/doofslayergameplay.gif" alt="Gameplay of my project, doofslayer" className='w-full h-full object-contain bg-black'/>
+              <div className="flex flex-row gap-8">
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <video autoPlay playsInline loop className='w-full h-full object-contain bg-black disable-blur'>
+                    <source src="/img/art/3.webm" type="video/webm"/>
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <video autoPlay playsInline loop className='w-full h-full object-contain bg-black disable-blur'>
+                    <source src="/img/art/4.webm" type="video/webm"/>
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <img src="/img/art/5.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                </div>
               </div>
 
-              <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                <img src="/img/doofslayergameplay.gif" alt="Gameplay of my project, doofslayer" className='w-full h-full object-contain bg-black'/>
+              <div className="flex flex-row gap-8">
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <img src="/img/art/6.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                </div>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <img src="/img/art/7.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                </div>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <img src="/img/art/8.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                </div>
+              </div>
+
+              <div className="flex flex-row gap-8">
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <img src="/img/art/9.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                </div>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <img src="/img/art/10.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                </div>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <img src="/img/art/11.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                </div>
+              </div>
+
+              <div className="flex flex-row gap-8">
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
+                  <img src="/img/art/12.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                </div>
               </div>
               
             </div>
