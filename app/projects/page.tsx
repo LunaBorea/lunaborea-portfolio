@@ -43,7 +43,7 @@ export default function page() {
                 <img src="/img/pyreboundgameplay.gif" alt="Gameplay of my project, pyrebound" className='w-full h-3/5'/>
 
                 <div className='w-full h-2/5 p-3'>
-                  <div className='flex flex-row items-center h-1/6 w-full'>
+                  <div className='flex flex-row items-center h-1/6 w-full mb-1'>
                     <h1 className='text-3xl text-africanviolet uppercase'>Pyrebound</h1>
                   </div>
                   <div className='flex flex-row items-center h-1/6 w-full gap-4'>
@@ -59,7 +59,7 @@ export default function page() {
                 <img src="/img/doofslayergameplay.gif" alt="Gameplay of my project, doofslayer" className='w-full h-3/5 object-contain bg-black'/>
 
                 <div className='w-full h-2/5 p-3'>
-                  <div className='flex flex-row items-center h-1/6 w-full'>
+                  <div className='flex flex-row items-center h-1/6 w-full mb-1'>
                     <h1 className='text-3xl text-africanviolet uppercase'>Doofslayer</h1>
                   </div>
                   <div className='flex flex-row items-center h-1/6 w-full gap-4'>
