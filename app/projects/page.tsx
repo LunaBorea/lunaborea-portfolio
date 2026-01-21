@@ -82,6 +82,8 @@ export default function page() {
           {openSections.art && (
             <div className="mb-4 mt-8 w-full text-frenchgray flex flex-col gap-8">
 
+              <p className="text-2xl text-frenchgray w-full font-sans tracking-tight text-center mt-5">Click on an image to view the original size!</p>
+
               <div className='flex flex-row gap-8'>
                 <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
                   <Link href={'/img/art/0.webp'} target='_blank'><img src="/img/art/0.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
