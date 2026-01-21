@@ -165,25 +165,25 @@ export default function page() {
           </div>
 
           {openSections.writing && (
-            <div className="mb-4 mt-8 w-full text-frenchgray flex flex-row gap-8">
+            <div className="mb-4 mt-8 w-full text-frenchgray flex flex-col gap-8">
 
-              <div className='w-1/3 h-[40vh] bg-void border-4 border-lion p-4 overflow-y-scroll'>
-                <h1 className='text-2xl text-africanviolet'>The Star Smith</h1>
-                <p className='text-12 text-frenchgray mb-4'>Among the countless Gods that were at the beginning of time, one stood out, being known above all else as a destroyer. She was called Star. Wherever she went, wielding her mighty hammer, cracks, fissures and rifts would follow. She was mocked by the other Gods for her clumsiness and they dismissed her as a nuisance.</p>
-                <p className='text-12 text-frenchgray mb-4'>When the world was formed, Star was captivated by its beauty, but she was commanded to never approach it, lest her touch shatter it too. So she lingered in the heavens, watching from afar. For every new wonder she came to love, a flowing river, a mighty mountain, a blooming field, she etched a mark into the sky. Over time, these etchings became a vast tapestry, reflecting the world's splendor back unto itself.</p>
-                <p className='text-12 text-frenchgray mb-4'>But Star's admiration grew into a yearning. Unable to contain her wish to see the world up close, she descended to walk among the living. She marveled at the creatures that roamed the land, the majesty of its mountains and valleys, and the way the wind sang through the trees. She felt the sun's warmth and the joy of the earth beneath her feet.</p>
-                <p className='text-12 text-frenchgray mb-4'>Yet her joy turned to sorrow when she witnessed the suffering of those who dwelled in the dark. The cold of the night brought fear, pain, and death. Her heart ached for them, for she could not bear to leave them in their misery. Raising her hammer one final time, she struck the ground with purpose. From the crack came fire, a gift from the depths of her heart to bring light to the night and warmth to the cold.</p>
-                <p className='text-12 text-frenchgray'>For her defiance, Star was executed by the other Gods. Yet when the first night thereafter came, they looked to the sky and were awestruck. Star's markings now shone as countless lights, illuminating the heavens. Below, the fires she had kindled in mortal hearts burned brightly, as though the world itself blazed in her memory. It was then understood the truth of Star's nature, not a destroyer, but a maker who had shaped beauty from imperfection.</p>
+              <div className='w-full h-[40vh] bg-void border-4 border-lion p-4 overflow-y-scroll'>
+                <h1 className='text-3xl text-africanviolet'>The Star Smith</h1>
+                <p className='text-xl text-frenchgray mb-4'>Among the countless Gods that were at the beginning of time, one stood out, being known above all else as a destroyer. She was called Star. Wherever she went, wielding her mighty hammer, cracks, fissures and rifts would follow. She was mocked by the other Gods for her clumsiness and they dismissed her as a nuisance.</p>
+                <p className='text-xl text-frenchgray mb-4'>When the world was formed, Star was captivated by its beauty, but she was commanded to never approach it, lest her touch shatter it too. So she lingered in the heavens, watching from afar. For every new wonder she came to love, a flowing river, a mighty mountain, a blooming field, she etched a mark into the sky. Over time, these etchings became a vast tapestry, reflecting the world's splendor back unto itself.</p>
+                <p className='text-xl text-frenchgray mb-4'>But Star's admiration grew into a yearning. Unable to contain her wish to see the world up close, she descended to walk among the living. She marveled at the creatures that roamed the land, the majesty of its mountains and valleys, and the way the wind sang through the trees. She felt the sun's warmth and the joy of the earth beneath her feet.</p>
+                <p className='text-xl text-frenchgray mb-4'>Yet her joy turned to sorrow when she witnessed the suffering of those who dwelled in the dark. The cold of the night brought fear, pain, and death. Her heart ached for them, for she could not bear to leave them in their misery. Raising her hammer one final time, she struck the ground with purpose. From the crack came fire, a gift from the depths of her heart to bring light to the night and warmth to the cold.</p>
+                <p className='text-xl text-frenchgray'>For her defiance, Star was executed by the other Gods. Yet when the first night thereafter came, they looked to the sky and were awestruck. Star's markings now shone as countless lights, illuminating the heavens. Below, the fires she had kindled in mortal hearts burned brightly, as though the world itself blazed in her memory. It was then understood the truth of Star's nature, not a destroyer, but a maker who had shaped beauty from imperfection.</p>
               </div>
 
-              <div className='w-1/3 h-[40vh] bg-void border-4 border-lion p-4 overflow-y-scroll'>
-                <h1 className='text-2xl text-africanviolet '>Excerpt from the Null Testament of the Grand Codex</h1>
-                <p className='text-12 text-frenchgray mb-4'>1 In the blasted, wretched depths of the Wreath, he gives his life.</p>
-                <p className='text-12 text-frenchgray mb-4'>2 His sword, awash with the rancid viscera and blood of our enemy.</p>
-                <p className='text-12 text-frenchgray mb-4'>3 He bears the mark of sacrifice, may his shield be adorned by the blackened steel of millennia.</p>
-                <p className='text-12 text-frenchgray mb-4'>4 There shall be no mercy nor recompense accepted, for their evil is eternal.</p>
-                <p className='text-12 text-frenchgray mb-4'>5 For he is their fear, for he is their judgement, for he is their end.</p>
-                <p className='text-12 text-frenchgray'>6 He shall save us all.</p>
+              <div className='w-full h-[40vh] bg-void border-4 border-lion p-4 overflow-y-scroll'>
+                <h1 className='text-3xl text-africanviolet '>Excerpt from the Null Testament of the Grand Codex</h1>
+                <p className='text-xl text-frenchgray mb-4'>1 In the blasted, wretched depths of the Wreath, he gives his life.</p>
+                <p className='text-xl text-frenchgray mb-4'>2 His sword, awash with the rancid viscera and blood of our enemy.</p>
+                <p className='text-xl text-frenchgray mb-4'>3 He bears the mark of sacrifice, may his shield be adorned by the blackened steel of millennia.</p>
+                <p className='text-xl text-frenchgray mb-4'>4 There shall be no mercy nor recompense accepted, for their evil is eternal.</p>
+                <p className='text-xl text-frenchgray mb-4'>5 For he is their fear, for he is their judgement, for he is their end.</p>
+                <p className='text-xl text-frenchgray'>6 He shall save us all.</p>
               </div>
               
             </div>
