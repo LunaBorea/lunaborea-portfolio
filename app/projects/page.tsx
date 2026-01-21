@@ -43,13 +43,15 @@ export default function page() {
                 <img src="/img/pyreboundgameplay.gif" alt="Gameplay of my project, pyrebound" className='w-full h-3/5'/>
 
                 <div className='w-full h-2/5 p-3'>
-                  <div className='flex flex-row items-center h-1/5 w-full'>
-                    <h1 className='text-2xl text-africanviolet'>Pyrebound</h1>
-                    <h1 className='text-2xl ml-4 text-lion opacity-80 hover:opacity-100 hover:underline underline-offset-4 transition'><Link href="/pyrebound/index.html" target='_blank'>Play</Link></h1>
-                    <h1 className='text-2xl ml-4 text-lion opacity-80 hover:opacity-100 hover:underline underline-offset-4 transition'><a href="https://github.com/moa-byggmastar/Phaser-Grupparbete" target='_blank'>Github</a></h1>
+                  <div className='flex flex-row items-center h-1/6 w-full'>
+                    <h1 className='text-3xl text-africanviolet uppercase'>Pyrebound</h1>
+                  </div>
+                  <div className='flex flex-row items-center h-1/6 w-full gap-4'>
+                    <h1 className='text-2xl text-lion opacity-80 hover:opacity-100 hover:underline underline-offset-4 transition'><Link href="/pyrebound/index.html" target='_blank'>Play</Link></h1>
+                    <h1 className='text-2xl text-lion opacity-80 hover:opacity-100 hover:underline underline-offset-4 transition'><a href="https://github.com/moa-byggmastar/Phaser-Grupparbete" target='_blank'>Github</a></h1>
                   </div>
 
-                  <p className='text-12 text-frenchgray h-4/5 w-full overflow-y-scroll'>A 2D endless wave shooter, made as a group project. My responsibilites included the game concept and core design, art assets, and gameplay scripting. Other team members contributed to gameplay scripting. The project was completed with a full gameplay loop.</p>
+                  <p className='text-12 text-frenchgray h-4/6 w-full overflow-y-scroll'>A 2D endless wave shooter, made as a group project. My responsibilites included the game concept and core design, art assets, and gameplay scripting. Other team members contributed to gameplay scripting. The project was completed with a full gameplay loop.</p>
                 </div>
               </div>
 
@@ -57,13 +59,15 @@ export default function page() {
                 <img src="/img/doofslayergameplay.gif" alt="Gameplay of my project, doofslayer" className='w-full h-3/5 object-contain bg-black'/>
 
                 <div className='w-full h-2/5 p-3'>
-                  <div className='flex flex-row items-center h-1/5 w-full'>
-                    <h1 className='text-2xl text-africanviolet'>Doofslayer</h1>
-                    <h1 className='text-2xl ml-4 text-lion opacity-80 hover:opacity-100 hover:underline underline-offset-4 transition'><Link href="/doofslayer/index.html" target='_blank'>Play</Link></h1>
-                    <h1 className='text-2xl ml-4 text-lion opacity-80 hover:opacity-100 hover:underline underline-offset-4 transition'><a href="https://github.com/LunaBorea/PhaserPlatformer" target='_blank'>Github</a></h1>
+                  <div className='flex flex-row items-center h-1/6 w-full'>
+                    <h1 className='text-3xl text-africanviolet uppercase'>Doofslayer</h1>
+                  </div>
+                  <div className='flex flex-row items-center h-1/6 w-full gap-4'>
+                    <h1 className='text-2xl text-lion opacity-80 hover:opacity-100 hover:underline underline-offset-4 transition'><Link href="/doofslayer/index.html" target='_blank'>Play</Link></h1>
+                    <h1 className='text-2xl text-lion opacity-80 hover:opacity-100 hover:underline underline-offset-4 transition'><a href="https://github.com/LunaBorea/PhaserPlatformer" target='_blank'>Github</a></h1>
                   </div>
 
-                  <p className='text-12 text-frenchgray h-4/5 w-full overflow-y-scroll'>A 2D platformer prototype, exploring basic mechanics and visual style</p>
+                  <p className='text-12 text-frenchgray h-4/6 w-full overflow-y-scroll'>A 2D platformer prototype, exploring basic mechanics and visual style</p>
                 </div>
 
               </div>
