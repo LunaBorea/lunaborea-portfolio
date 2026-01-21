@@ -7,7 +7,7 @@ export default function page() {
     const [age, setAge] = useState<number | null>(null)
 
     useEffect(() => {
-        const birthDate = new Date('2006-03-14') // <-- your DOB
+        const birthDate = new Date('2006-04-02') // <-- your DOB
         const today = new Date()
 
         let calculatedAge = today.getFullYear() - birthDate.getFullYear()
