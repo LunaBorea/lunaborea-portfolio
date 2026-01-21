@@ -83,65 +83,71 @@ export default function page() {
             <div className="mb-4 mt-8 w-full text-frenchgray flex flex-col gap-8">
 
               <div className='flex flex-row gap-8'>
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <img src="/img/art/0.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/0.webp'} target='_blank'><img src="/img/art/0.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
                 </div>
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <img src="/img/art/1.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/1.webp'} target='_blank'><img src="/img/art/1.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
                 </div>
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <video autoPlay playsInline loop className='w-full h-full object-contain bg-black'>
-                    <source src="/img/art/2.webm" type="video/webm"/>
-                    Your browser does not support the video tag.
-                  </video>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/2.webp'} target='_blank'><img src="/img/art/2.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
                 </div>
               </div>
 
-              <div className="flex flex-row gap-8">
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <video autoPlay playsInline loop className='w-full h-full object-contain bg-black disable-blur'>
-                    <source src="/img/art/3.webm" type="video/webm"/>
-                    Your browser does not support the video tag.
-                  </video>
+              <div className='flex flex-row gap-8'>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/3.webp'} target='_blank'><img src="/img/art/3.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
                 </div>
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <video autoPlay playsInline loop className='w-full h-full object-contain bg-black disable-blur'>
-                    <source src="/img/art/4.webm" type="video/webm"/>
-                    Your browser does not support the video tag.
-                  </video>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/4.webp'} target='_blank'><img src="/img/art/4.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
                 </div>
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <img src="/img/art/5.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/5.webp'} target='_blank'><img src="/img/art/5.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
                 </div>
               </div>
 
-              <div className="flex flex-row gap-8">
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <img src="/img/art/6.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+              <div className='flex flex-row gap-8'>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/6.webp'} target='_blank'><img src="/img/art/6.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
                 </div>
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <img src="/img/art/7.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/7.webp'} target='_blank'><img src="/img/art/7.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
                 </div>
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <img src="/img/art/8.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
-                </div>
-              </div>
-
-              <div className="flex flex-row gap-8">
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <img src="/img/art/9.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
-                </div>
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <img src="/img/art/10.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
-                </div>
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <img src="/img/art/11.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/8.webp'} target='_blank'><img src="/img/art/8.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
                 </div>
               </div>
 
-              <div className="flex flex-row gap-8">
-                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion'>
-                  <img src="/img/art/12.webp" alt="Art" className='w-full h-full object-contain bg-black'/>
+              <div className='flex flex-row gap-8'>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/9.webm'} target='_blank'>
+                    <video autoPlay playsInline loop className='w-full h-full object-contain bg-black'>
+                      <source src="/img/art/9.webm" type="video/webm"/>
+                      Your browser does not support the video tag.
+                    </video>
+                  </Link>
+                </div>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/10.webm'} target='_blank'>
+                    <video autoPlay playsInline loop className='w-full h-full object-contain bg-black'>
+                      <source src="/img/art/10.webm" type="video/webm"/>
+                      Your browser does not support the video tag.
+                    </video>
+                  </Link>
+                </div>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/11.webm'} target='_blank'>
+                    <video autoPlay playsInline loop className='w-full h-full object-contain bg-black'>
+                      <source src="/img/art/11.webm" type="video/webm"/>
+                      Your browser does not support the video tag.
+                    </video>
+                  </Link>
+                </div>
+              </div>
+
+              <div className='flex flex-row gap-8'>
+                <div className='w-1/3 h-[40vh] bg-void border-4 border-lion hover:drop-shadow-ostroborea cursor-pointer transition-all duration-300'> 
+                  <Link href={'/img/art/12.webp'} target='_blank'><img src="/img/art/12.webp" alt="Art" className='w-full h-full object-contain bg-black'/></Link>
                 </div>
               </div>
               
