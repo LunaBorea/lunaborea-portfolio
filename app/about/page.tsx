@@ -1,8 +1,24 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useState } from 'react'
 import Ostroheader from '../components/ostroheader'
 import Noise from '../components/noise'
 
 export default function page() {
+    const [age, setAge] = useState<number | null>(null)
+
+    useEffect(() => {
+        const birthDate = new Date('2006-03-14') // <-- your DOB
+        const today = new Date()
+
+        let calculatedAge = today.getFullYear() - birthDate.getFullYear()
+
+        const monthDiff = today.getMonth() - birthDate.getMonth()
+        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+            calculatedAge--
+        }
+
+    setAge(calculatedAge)}, [])
+
   return (
     <div className="h-screen flex flex-col items-center">
       <Noise />
@@ -10,8 +26,8 @@ export default function page() {
 
       <div className="flex flex-col h-8/10 w-2/3 mt-12">
         <div className="title uppercase text-6xl w-full border-b-lion border-b-2 mt-8 mb-8">about me</div>
-        <p className='text-2xl text-frenchgray w-full font-sans'>Hi! My name is Nathanael Lampa, also known online as LunaBorea. I'm an aspiring game developer, artist, and writer from Finland. 
-            I love space, climbing, Dune, problem-solving, and getting into the gnitty gritty details of the things I'm interested in. I'm endlessly curious and constantly trying to improve.
+        <p className='text-2xl text-frenchgray w-full font-sans'>Hi! My name is Nathanael Lampa, I'm {age ?? '-'} years old, also known online as LunaBorea. I'm an aspiring game developer, artist, and writer from Finland. 
+            I love astronomy, climbing, problem-solving, and getting into the gnitty gritty details of the things I'm interested in. I'm endlessly curious and constantly trying to improve.
         </p>
         <div className="text-lion uppercase text-4xl w-full mt-8 mb-2">skills</div>
 
