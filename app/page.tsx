@@ -18,11 +18,11 @@ export default function Home() {
             <div className="center-line-h grow"></div>
           </div>
 
-          <div className="title uppercase text-void font-extrabold text-9xl text-shadow-ostroborea transition-transform hover:scale-x-110 cursor-default">LunaBorea</div>  
+          <div className="title uppercase text-void font-extrabold text-9xl text-shadow-ostroborea transition-transform hover:scale-x-110 cursor-default">Liselle</div>  
 
           <div className="flex flex-row w-full">
             <div className="center-line-h grow"></div>
-            <div className="uppercase text-lion text-3xl tracking-widest ml-5 -mt-2">aka liselle</div>  
+            <div className="uppercase text-lion text-3xl tracking-widest ml-5 -mt-2">aka lunaborea</div>  
           </div>
 
           <p className="text-2xl text-frenchgray w-full font-sans tracking-tight text-center mt-5">aspiring game developer · full stack background · artist</p>
